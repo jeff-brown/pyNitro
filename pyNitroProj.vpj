@@ -1,0 +1,85 @@
+<!DOCTYPE Project SYSTEM "http://www.slickedit.com/dtd/vse/10.0/vpj.dtd">
+<Project
+	Version="10.0"
+	VendorName="SlickEdit"
+	TemplateName="Python - Empty Project"
+	WorkingDir=".">
+	<Files>
+		<Folder
+			Name="Source Files"
+			Filters="*.py">
+			<F N="../nitro-python-1.0 4/sample/CreateCluster.py"/>
+			<F N="../nitro-python-1.0 4/sample/get_config.py"/>
+			<F N="../nitro-python-1.0 4/sample/MyFirstNitroApplication.py"/>
+			<F N="src/nitroDemo.py"/>
+			<F N="../nitro-python-1.0 4/sample/rm_config.py"/>
+			<F N="../nitro-python-1.0 4/sample/set_config.py"/>
+			<F N="../nitro-python-1.0 4/sample/stat_config.py"/>
+		</Folder>
+		<Folder
+			Name="Other Files"
+			Filters=""/>
+	</Files>
+	<Config
+		Name="Debug"
+		DebugCallbackName="pydbgp"
+		Type="python"
+		OutputFile=""
+		AppType="python"
+		CompilerConfigName="">
+		<Menu>
+			<Target
+				Name="Execute"
+				MenuCaption="E&amp;xecute"
+				Dialog="_python_options_form Run"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveNone"
+				RunFromDir="%rw"
+				Deletable="0">
+				<Exec
+					CmdLine='"%(SLICKEDIT_PYTHON_EXE)" %(SLICKEDIT_PYTHON_EXECUTE_ARGS) "%f" %~other'
+					OtherOptions="10.217.242.70 nsroot nsroot"/>
+			</Target>
+			<Target
+				Name="Debug"
+				MenuCaption="&amp;Debug"
+				Dialog="_python_options_form Debug"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveNone"
+				RunFromDir="%rw"
+				Deletable="0">
+				<Exec
+					CmdLine="python_debug"
+					Type="Slick-C"/>
+			</Target>
+			<Target
+				Name="Python Options"
+				MenuCaption="Python &amp;Options"
+				ShowOnMenu="HideIfNoCmdLine"
+				Deletable="0">
+				<Exec
+					CmdLine="pythonoptions"
+					Type="Slick-C"/>
+			</Target>
+		</Menu>
+		<Includes>
+			<Include Dir="/Users/jeffbr/ShareFile/My Files &amp; Folders/Code/nitro-python-1.0 4/"/>
+		</Includes>
+		<List Name="Python Options">
+		</List>
+		<List Name="pydbgp Options">
+			<Item
+				Name="ServerHost"
+				Value="127.0.0.1"/>
+			<Item
+				Name="ServerPort"
+				Value="0"/>
+			<Item
+				Name="ListenInBackground"
+				Value="1"/>
+			<Item
+				Name="show_hidden"
+				Value="0"/>
+		</List>
+	</Config>
+</Project>

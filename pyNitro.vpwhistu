@@ -1,0 +1,28 @@
+[Global]
+CurrentProject=pyNitroProj.vpj
+[ProjectDates]
+pyNitroProj.vpj=20140720211820000
+[ActiveConfig]
+pyNitroProj.vpj=Debug
+[TreeExpansion2]
+-@ pyNitroProj.vpj
+  - Source Files
+  - Other Files
+scroll:0
+[State]
+SCREEN: 1440 900 48 22 1388 813 0 0 M 0 0 0 0 1006 564 0
+CWD: ../pyNitro
+BUFFER: BN="../nitro-python-1.0 4/sample/MyFirstNitroApplication.py"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Python	HM=0 MF=52298592 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=8 CL="" SC="" SCE= SCU=
+VIEW: LN=.666 CL=1 LE=0 CX=2 CY=8 WI=5 BI=16 HT=0 HN=0 HF=0 HC=4
+WINDOW: 1 24 1004 539 0 0 N  WF=0 WT=2 ",,," DID=0
+BUFFER: BN="../nitro-python-1.0 4/sample/MyFirstNitroApplication.py"
+VIEW: LN=.666 CL=1 LE=0 CX=2 CY=8 WI=225 BI=16 HT=0 HN=0 HF=0 HC=4
+MDISTATE: 1
+AAAAAAAAAAHaAAAAAAAAAAAAAAVqAAADFOoAAAAC+gAAAAEAAAABAAAAAPoAAAABAAAAAQAAAAD8AAAA0AAyADoAOgA6AC8AVQBzAGUAcgBzAC8AagBlAGYAZgBiAHIALwBTAGgAYQByAGUARgBpAGwAZQAvAE0AeQAgAEYAaQBsAGUAcwAgACYAIABGAG8AbABkAGUAcgBzAC8AQwBvAGQAZQAvAG4AaQB0AHIAbwAtAHAAeQB0AGgAbwBuAC0AMQAuADAAIAA0AC8AcwBhAG0AcABsAGUALwBNAHkARgBpAHIAcwB0AE4AaQB0AHIAbwBBAHAAcABsAGkAYwBhAHQAaQBvAG4ALgBwAHkBAP////8AAQ==
+FILEHIST: 3
+../nitro-python-1.0 4/nssrc/com/citrix/netscaler/nitro/resource/stat/aaa/aaa_stats.py
+../pyNitroTest/pyNitroTest.vpw
+../nitro-python-1.0 4/sample/MyFirstNitroApplication.py
+TBCLASS: 0 0
+DEBUG2: 0
