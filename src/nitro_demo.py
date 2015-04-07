@@ -127,6 +127,14 @@ class nitro_demo :
 			print("Exception::base_config::errorcode="+str(e.errorcode)+",message="+ e.message)
 		except Exception as e:
 			print("Exception::base_config::message="+str(e.args))
+			
+	def execute_shell(child):
+		child.sendline ('ipmitool mc info')
+		child.expect('\s([0-9]+\.[0-9][0-9])')
+		rev = child.match.group(0)
+		print()
+		print('Firmware Revision: %s' % (rev))
+		child.expect (COMMAND_PROMPT)
 
 	#1) Stat a vserver/servicegroup
 	def stats(self, client, lbv_name, svc_name) : 

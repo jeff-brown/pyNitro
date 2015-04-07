@@ -1,0 +1,21 @@
+DEBUG:root:Build Num: 10.5-55.8
+DEBUG:root:Path: /var/nsinstall/ccnsinstall/10.5-55.8
+DEBUG:root:login_ssh
+DEBUG:root:ERROR!
+DEBUG:root:SSH could not login. Here is what SSH said: Operation timed out
+DEBUG:root:ERROR!
+DEBUG:root:SSH could not login. Here is what SSH said: Operation timed out
+DEBUG:root:nitro login complete
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 10.217.242.100
+DEBUG:requests.packages.urllib3.connectionpool:"POST /nitro/v1/config/login HTTP/1.1" 201 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 10.217.242.100
+DEBUG:requests.packages.urllib3.connectionpool:"PUT /nitro/v1/config/hanode/0 HTTP/1.1" 200 0
+DEBUG:root:disablesync - Done
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 10.217.242.100
+DEBUG:requests.packages.urllib3.connectionpool:"PUT /nitro/v1/config/hanode/0 HTTP/1.1" 200 0
+DEBUG:root:staysecondary - Done
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 10.217.242.100
+DEBUG:requests.packages.urllib3.connectionpool:"POST /nitro/v1/config/nsconfig?action=save HTTP/1.1" 200 0
+DEBUG:root:saveconfig - Done
+DEBUG:root:mkdir remote
+DEBUG:root:scp: 10.217.242.100

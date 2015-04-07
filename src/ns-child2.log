@@ -1,0 +1,19 @@
+ssh nsroot@10.217.242.100
+bash-3.2$ ssh nsroot@10.217.242.100
+ssh: connect to host 10.217.242.100 port 22: Operation timed out
+ssh nsroot@10.217.242.100
+bash-3.2$ ssh nsroot@10.217.242.100
+ssh: connect to host 10.217.242.100 port 22: Operation timed out
+ssh nsroot@10.217.242.100
+bash-3.2$ ssh nsroot@10.217.242.100
+Password: nsroot
+
+Last login: Mon Apr  6 16:23:48 2015 from 10.216.51.147
+Warning: You are connected to a secondary node; configuration changes made in this session will not be propagated to, or saved on, other nodes (Primary node is 10.217.242.90) Done
+> shell mkdir -p /nsconfig/license
+shell mkdir -p /nsconfig/license
+ Done
+> shell mkdir -p /var/nsinstall/ccnsinstall/10.5-55.8
+shell mkdir -p /var/nsinstall/ccnsinstall/10.5-55.8
+ Done
+> 
